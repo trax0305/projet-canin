@@ -1,0 +1,99 @@
+/* CSS Login */
+body{
+    margin: 0 auto;
+    background: url("../img/dogsback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    background-color: rgba(255, 255, 255,1);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  
+  .loginbox img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-right: 0px;
+    border-radius: 50%;
+  }
+  
+  h1
+  {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .loginbox input[type="text"],input[type="password"]
+  {
+    border: none;
+    border-bottom: 1px solid #f7ff13;
+    background: transparent; 
+    outline: none;
+    height: 50px;
+    color: #030303;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .loginbox input[type="submit"]
+  {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    background: #01a6fd;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .loginbox input[type="submit"]:hover
+  {
+    cursor: pointer;
+    background: #fff107;
+    color: #000;
+  }
+  
+  .loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+  }
+  
+  .loginbox a:hover
+  {
+    color: darkorchid;
+  }
+
+  .error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.mdpforget {
+  margin-top: 20px;
+  font-weight: bold;
+}
