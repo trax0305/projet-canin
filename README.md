@@ -10,4 +10,5 @@ Cette mission a pour objectif de créer un ERP pour un magasin de toilettage ani
 
 - Télécharger le fichier zip/rar
 - Extraire l'archive à la racine du serveur ou de l'émulateur
+- sur Xampp ou wampp crer une base de donnée toilettage et importe la base de donnée
 - Changer les credential dans les pages connectionclass.php , calendar.php, confirmModifrdv.php et detailrdv.php
